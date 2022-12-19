@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            background-color: rgb(249, 228, 228);
+            height: 600px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item {
+            width: 100px;
+            /* height: 100px; */
+            min-height: 100px;
+            background-color: #f2fbde;
+            border: 1px solid #666;
+            color: rgb(140, 30, 30);
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 60px;
+            flex-grow: 1;
+        }
+
+        .a {
+            background-color: #f86;
+        }
+
+        .b {
+            background-color: #ebff66;
+        }
+
+        .c {
+            background-color: #66f2ff;
+            flex-grow: 2;
+            align-self: stretch;
+        }
+
+        .d {
+            background-color: #dcdefc;
+        }
+
+        .e {
+            background-color: #fde2f6;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="item a">A</div>
+        <div class="item b">B</div>
+        <div class="item c">C</div>
+        <div class="item d">D</div>
+        <div class="item e">E</div>
+    </div>
+</body>
+
+</html>

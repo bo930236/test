@@ -345,7 +345,8 @@ console.log(str.split(''))//字母切，空格也會
 /*
 console.log(str.split(' '))//用空格切[ 'hey', 'hello', 'world', 'yoyoyoyo' ]
  */
-
+/* 
 //去掉前後空格
 var str = ' data1,data2,data3 '
-console.log(str.trim())//印出data1,data2,data3
+console.log(str.trim())//印出data1,data2,data3 */
+
